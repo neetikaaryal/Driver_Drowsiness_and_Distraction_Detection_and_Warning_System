@@ -20,9 +20,9 @@ import time
 # -------------------------------
 # Global parameters and thresholds
 # -------------------------------
-EYE_AR_THRESH = 0.3          # EAR threshold to indicate closed eyes
+EYE_AR_THRESH = 0.15          # EAR threshold to indicate closed eyes
 EYE_AR_CONSEC_FRAMES = 30    # Number of consecutive frames the eye must be below the threshold to trigger drowsiness alert
-YAWN_THRESH = 20             # Lip distance (in pixels) threshold to trigger yawn alert
+YAWN_THRESH = 70             # Lip distance (in pixels) threshold to trigger yawn alert
 
 # Global flags and counters for alarms
 alarm_status = False
